@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header part css */
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #2d3950;
+    font-weight: 400;
+    font-size:18px;
+}
+header{
+    background-color: #f9f9f9;
+}
+/* header part css */
+
+/* bannder part css */
+.banner-section{
+    background-image: url(../images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-section{
+
+}
+.banner-section h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 100px;
+}
+.banner-section span{
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #c50707;
+}
+.banner-section p{
+    margin: 0;
+    color: #fff;
+    margin: 30px 0;
+}
+.btn-action{
+    color: #fff;
+    background: transparent;
+    padding: 0;
+    padding: 10px 28px;
+    border: 1px solid #fff;
+    text-transform: capitalize;
+    transition: .4s all ease-in-out;
+}
+.btn-action:hover{
+    background-color: #c50707;
+    color: #fff;
+
+}
+.hg{
+    min-height:90vh;
+}
+
+/* banner part css */
+
+/* simple-and-pure */
+.simple-and-pure {
+    background-color: #e3e5e9;
+}
+
+.simple-and-pure h1{
+    color: #c50707;
+    text-transform: capitalize;
+    font-size: 50px;
+    padding-top: 75px;
+}
+.simple-and-pure p{
+    color: #363636;
+    padding-top: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 27px;
+}
+
+/* simple-and-pure */
+
+/* feature section */
+
+.feature{
+    
+}
+.feature h2{
+    color: #2d3950;
+    font-size: 24px;  
+}
+.feature p{
+    color: #2d3950;
+}
+.icon_box{
+    height: 80px;
+    width: 80px;
+    background-color: /* Permalink - use to edit and share this gradient: 
+    https://colorzilla.com/gradient-editor/#c50707+0,c50707+50,f20909+50,f20909+100 */
+    background: #c50707; /* Old browsers */
+    background: -moz-linear-gradient(left, #c50707 0%, #c50707 50%, #f20909 50%, #f20909 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #c50707 0%,#c50707 50%,#f20909 50%,#f20909 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #c50707 0%,#c50707 50%,#f20909 50%,#f20909 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradien
+    ( startColorstr='#c50707', endColorstr='#f20909',GradientType=1 ); /* IE6-9 */;
+    margin: auto;
+    font-size: 35px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.icon_box i{
+
+}
+
+/* feature section */
+
+/* showcase  section */
+.show_case{
+
+}
+.show_case h1{
+    text-transform: capitalize;
+}
+.work{
+    position: relative;
+}
+.work::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 0%;
+    height: 0%;
+    background-color: #c50707;
+    opacity: .5;
+    transition: .4s all ease-in-out;
+}
+.work:hover::before{
+    width: 100%;
+    height: 100%;
+}
+.icon_list{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    opacity: 0;
+    display: flex;
+    transition: .4s all ease-in-out;
+}
+.icon_list ul{
+    width: 90px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.icon_list ul li{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 5px;
+}
+.icon_list ul li i{
+
+}
+.work:hover .icon_list{
+    opacity: 1;
+}
+/* showcase section */
+
+/* footer */
+form{
+    text-align:end;
+}
+
+.footer-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+form input[type="submit"]{
+    background: transparent;
+    color:#fff ;
+    border: none;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    border-radius: 3px;
+    transition: .4s all ease-in-out;
+}
+form input[type="submit"]:hover{
+    border: 1px solid red;
+    background-color:  red;
+    color: #fff;
+}
+footer{
+    background-image: url(../images/meric-dagli-xxbh8yBkFVM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 80vh;
+}
+footer::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2d3950;
+    opacity: .5;
+}
+.footer_content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
